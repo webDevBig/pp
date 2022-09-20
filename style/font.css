@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cinzel-Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('CinzelFamily'), url('../font/Cinzel-Bold.ttf');
+}
+@font-face {
+    font-family: 'Cinzel-Black';
+    font-style: normal;
+    font-weight: 900;
+    src: local('CinzelFamily'), url('../font/Cinzel-Black.ttf');
+}
+@font-face {
+    font-family: 'Cinzel-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local('CinzelFamily'), url('../font/Cinzel-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'), url('../font/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('../font/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('../font/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat Black'), local('Montserrat-Black'), url('../font/Montserrat-Black.ttf');
+}
