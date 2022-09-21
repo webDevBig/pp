@@ -368,7 +368,7 @@ header .icon_box {
 
 #about {
     background-color: var(--section-about-bgcolor);
-    padding: 0 20px 0 40px;
+    padding: 40px 20px 0 40px;
     min-height: inherit;
 }
 
