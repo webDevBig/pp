@@ -41,8 +41,8 @@ body {
     overflow-x: hidden;
     font-family: var(--main-font);
     background-color: var(--main-bgcolor);
-    background: rgb(23,29,33);
-    background: linear-gradient(180deg, rgba(23,29,33,1) 0%, rgba(23,29,33,1) 25%, rgba(49,24,38,1) 100%);
+    background: rgb(23, 29, 33);
+    background: linear-gradient(180deg, rgba(23, 29, 33, 1) 0%, rgba(23, 29, 33, 1) 25%, rgba(49, 24, 38, 1) 100%);
 }
 
 body.overflow_hidden {
@@ -208,7 +208,7 @@ header .icon_box {
 
     .discord_icon img,
     .twitter_icon img {
-        max-height:50px;
+        max-height: 50px;
     }
 
     .navbar-toggler {
@@ -301,6 +301,7 @@ header .icon_box {
     justify-content: center;
     align-items: flex-end;
     color: var(--section-home-color);
+    padding: 0 0 54px;
 }
 
 @media all and (max-width:1920px) {
@@ -368,7 +369,7 @@ header .icon_box {
 
 #about {
     background-color: var(--section-about-bgcolor);
-    padding: 40px 20px 0 40px;
+    padding: 0px 20px 0 40px;
     min-height: inherit;
 }
 
@@ -384,12 +385,13 @@ header .icon_box {
 }
 
 #about .content div.image img {
-    display:block;
+    display: block;
     margin: 0 auto;
     max-width: 500px;
 }
+
 #about .content div.image video {
-    display:block;
+    display: block;
     margin: 0 auto;
     max-width: 500px;
 }
@@ -406,7 +408,7 @@ header .icon_box {
 
 @media all and (max-width:1660px) {
 
-    #about .content div.image img{
+    #about .content div.image img {
         max-width: 48%;
     }
 }
@@ -424,23 +426,22 @@ header .icon_box {
         line-height: 21px;
     }
 
-    #about .content div.image img{
+    #about .content div.image img {
         max-width: 36%;
     }
-    
-    #about .content div.image video
-    {
-         max-width: 70%;
+
+    #about .content div.image video {
+        max-width: 70%;
     }
 }
 
 @media all and (max-width:1000px) {
     #about {
-    padding: 40px 20px 0 40px;
-}
+        padding: 0px 20px 0 40px;
+    }
 
     #about .content div.image img,
-    #about .content div.image video{
+    #about .content div.image video {
         max-width: 300px;
     }
 
@@ -459,7 +460,6 @@ header .icon_box {
 
     #about .content {
         flex-direction: column;
-        margin-top: 30px;
     }
 
     #about .content > * {
@@ -480,8 +480,9 @@ header .icon_box {
 }
 
 @media all and (max-width:425px) {
-    #about .content div.image img ,
-    #about .content div.image video{
+
+    #about .content div.image img,
+    #about .content div.image video {
         max-width: 100%;
         margin: 20px 0 10px
     }
@@ -607,7 +608,7 @@ header .icon_box {
 
     .benefits_box .item {
         flex-direction: column;
-        justify-content: start; 
+        justify-content: start;
         align-items: center;
         max-width: 300px;
     }
@@ -918,14 +919,14 @@ header .icon_box {
     #team .name {
         font-size: 18px;
     }
-    
+
     #team .role {
         font-size: 16px;
     }
 }
 
 @media all and (max-width:425px) {
-   
+
     #team .img_box {
         margin: 0 0 30px;
     }
@@ -1082,7 +1083,7 @@ header .icon_box {
 
 @media all and (max-width:1344px) {
     #discord .joinUs {
-        font-size:5vh;
+        font-size: 5vh;
         box-shadow: 5px 14px 2px rgb(0 0 0 / 43%);
         padding: 10px 59px;
         border-radius: 21px;
